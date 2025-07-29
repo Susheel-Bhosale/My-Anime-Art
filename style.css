@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #ff3c3c;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #aaa;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.gallery h2 {
+  text-align: center;
+  color: #00bfff;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #444;
+  box-shadow: 0 0 10px #000;
+}
+
+#about h2, #contact h2 {
+  color: #ffcc00;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #888;
+}
